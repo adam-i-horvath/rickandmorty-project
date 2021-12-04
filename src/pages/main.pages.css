@@ -1,0 +1,42 @@
+.characters__container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #0e141b;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #a4a4a4;
+  padding: 20px;
+  border: 3px solid #ffffff;
+  margin: 20px;
+  border-radius: 20px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.characters__title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.character__species,
+.character__status {
+  font-size: 1.3rem;
+}
+
+.character__image {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.character__name {
+  font-size: 1.5rem;
+}
